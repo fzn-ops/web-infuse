@@ -43,7 +43,7 @@ function generateEditKey() {
 
 // Get frontend URL (change in production)
 function getFrontendUrl() {
-  return process.env.FRONTEND_URL || 'http://localhost:3000';
+  return process.env.FRONTEND_URL || 'https://wondrous-daffodil-5b0f6b.netlify.app/';
 }
 
 // ========== DATABASE INITIALIZATION ==========
